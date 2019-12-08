@@ -9,9 +9,7 @@ public class M8958 {
 		int N = Integer.parseInt(sc.nextLine());
 		int[] scores = new int[N];
 		for (int i = 0; i < N; i++) {
-			String str = sc.nextLine();
-			String[] chr = new String[str.length()];
-			chr = str.split("");
+			String[] chr = sc.nextLine().split("");
 			int score = 0; int cnt = 0;
 			for (int j = 0; j < chr.length; j++) {
 				if (chr[j].equals("O")) score = score + ++cnt;
