@@ -11,8 +11,8 @@ public class M8958 {
 		for (int i = 0; i < N; i++) {
 			String[] chr = sc.nextLine().split("");
 			for (int j = 0, cnt = 0; j < chr.length; j++) {
-				if (chr[j].equals("O")) scores[i] = scores[i] + ++cnt;
-				else if (chr[j].equals("X")) cnt = 0;
+				if (chr[j].equals("O")) scores[i] += ++cnt;
+				else cnt = 0;
 			}
 		}
 		for(int score : scores) System.out.println(score);
