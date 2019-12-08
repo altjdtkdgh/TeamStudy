@@ -10,16 +10,12 @@ public class M8958 {
 		int[] scores = new int[N];
 		for (int i = 0; i < N; i++) {
 			String[] chr = sc.nextLine().split("");
-			int score = 0; int cnt = 0;
-			for (int j = 0; j < chr.length; j++) {
-				if (chr[j].equals("O")) score = score + ++cnt;
+			for (int j = 0, cnt = 0; j < chr.length; j++) {
+				if (chr[j].equals("O")) scores[i] = scores[i] + ++cnt;
 				else if (chr[j].equals("X")) cnt = 0;
 			}
-			scores[i] = score;
 		}
-		for(int score : scores) {
-			System.out.println(score);
-		}
+		for(int score : scores) System.out.println(score);
 	}
 
 }
