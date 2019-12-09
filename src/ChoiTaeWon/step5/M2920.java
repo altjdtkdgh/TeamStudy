@@ -1,6 +1,5 @@
 package ChoiTaeWon.step5;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -12,32 +11,33 @@ import java.util.Scanner;
  * 
  * output ascending
  * 
- * @desc 이거 왜 틀린거지?
+ * 메모리 : 14240 KB
+ * time : 104ms
  *
  */
 public class M2920 {
 
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		int nums[] = new int[8];
-		String answer = "";
+		String answer = "mixed";
+		int cntAscen = 0;
+		int cntDecen = 0;
 		
 		for(int i=0;i<nums.length;i++) {
 			nums[i] = sc.nextInt();
 		}
 		
 		for(int i=0;i<nums.length;i++) {
-			if(i+1 == nums[i]) {
-				answer = "ascending";
-			}else if(8-i == nums[i]) {
-				answer = "descending";
-			}else {
-				answer = "mixed";
-				break;
-			}
+			if(i+1 == nums[i]) cntAscen++;
+			if(8-i == nums[i]) cntDecen++;
+			
 		}
 		
+		if (cntAscen == 8) answer = "ascending";
+		if (cntDecen == 8) answer = "descending";
+
 		System.out.println(answer);
 	}
 
