@@ -6,6 +6,8 @@ public class M2920 {
 
 	public static void main(String[] args) {
 		
+		
+		
 		Scanner sc = new Scanner(System.in);
 		
 		int[] um = new int[8];
@@ -24,6 +26,7 @@ public class M2920 {
 				
 			}
 		}
+
 		if(um[0]==1 && um[(um.length/2)-1] < um[um.length/2])
 		{
 			System.out.println("ascending");
