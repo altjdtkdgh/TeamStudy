@@ -8,7 +8,7 @@ public class M10809 {
 		
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
-		for(char c = 'a'; c<='z';c++) System.out.print(input.indexOf(c)+" ");
+		for(char c = 'a'; c<='z';c++) System.out.print(input.indexOf(c)+" "); 
 	}
 
 }
