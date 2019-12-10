@@ -15,7 +15,7 @@ public class M1065 {
 	 * 출력 
 	 * 첫째 줄에 1보다 크거나 같고, N보다 작거나 같은 한수의 개수를 출력한다.
 	 * 
-	 * 메모리 : 13344kb
+	 * 메모리 : 13344kb 
 	 * 시간 : 96ms
 	 */
 	public static void main(String[] args) throws Exception {
