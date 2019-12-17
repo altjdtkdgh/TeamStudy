@@ -19,7 +19,7 @@ public class M3009 {
 	 *
 	 *메모리: 12908kb
 	 *시간 : 72ms
-	 *
+	 * 
 	 */
 	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
