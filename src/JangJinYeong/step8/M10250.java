@@ -19,7 +19,6 @@ public class M10250 {
 				YY = HWN[2]-HWN[0]*XX;
 				XX++;
 			}
-			System.out.println(YY);
 			rs[i] = 100*YY + XX;
 		}
 		for (int a : rs) System.out.println(a);
