@@ -25,7 +25,7 @@ public class M2581 {
 	 * 
 	 * 메모리 : 13064kb
 	 * 시간 : 100ms
-	 *  
+	 *   
 	 */
 	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
