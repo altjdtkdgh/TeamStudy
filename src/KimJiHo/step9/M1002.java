@@ -23,7 +23,7 @@ public class M1002 {
  * 
  * 
  * @@@@@@@@@@@틀렸다고 나오는데 반례를 못찾겠음 왜 틀렸는지..?@@@@@@@@@@@@@@@@@@@@@2
- * */
+ * */ 
 	public static void main(String[] args) throws Exception {
 		
 		/*조규현/백승환의 좌표는 원의 중점
