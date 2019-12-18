@@ -30,7 +30,7 @@ public class M9020 {
 //	출력하는 소수는 작은 것부터 먼저 출력하며, 공백으로 구분한다.
 /*
  * 메모리 : 15716kb
- * 시간 : 1372ms
+ * 시간 : 440ms
  * 
  * */
 	
@@ -71,6 +71,7 @@ public class M9020 {
 		for(int i = 2 ; i < n ; i++) {
 			if(n % i == 0) {
 				flag = false;
+				break;
 			}
 		}
 		
