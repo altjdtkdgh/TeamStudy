@@ -2,7 +2,10 @@ package JangJinYeong.step9;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+/*
+ * 21520 KB
+ * 272 ms
+ */
 public class M1002 {
 
 	public static void main(String[] args) {
