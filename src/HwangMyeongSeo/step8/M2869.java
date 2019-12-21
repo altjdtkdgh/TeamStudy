@@ -8,6 +8,7 @@ public class M2869 {
 		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
+		
 		int nat = sc.nextInt();
 		int bam = sc.nextInt();
 		int height = sc.nextInt();
@@ -16,7 +17,7 @@ public class M2869 {
 		int i = 0;
 		while(true)
 		{
-			total = nat+total-bam;
+			total = (nat*i)-(bam*(i-1));
 			if(total >= height)
 			{
 				System.out.println(i);
