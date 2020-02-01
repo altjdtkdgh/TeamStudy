@@ -14,7 +14,7 @@ public class M10818 {
 		for(int i = 0;i< values.length;i++)
 		{
 			int value = sc.nextInt();
-			values[i] = value;
+			values[i] = value; 
 		}
 
 		Arrays.sort(values);
